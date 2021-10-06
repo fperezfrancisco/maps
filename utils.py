@@ -15,6 +15,9 @@ def map_and_filter(s, map_fn, filter_fn):
     >>> map_and_filter([1, 2, 3, 4, 5], square, is_odd)
     [1, 9, 25]
     """
+    # i added a comment to this to test git and github status
+    
+
     # BEGIN Question 0
 
     return [map_fn(x) for x in s if filter_fn(x)]
